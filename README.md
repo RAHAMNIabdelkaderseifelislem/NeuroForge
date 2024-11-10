@@ -21,7 +21,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/neuroforge.git
+git clone https://github.com/RAHAMNIabdelkaderseifelislem/neuroforge.git
 
 # Install dependencies
 pip install -r requirements.txt
