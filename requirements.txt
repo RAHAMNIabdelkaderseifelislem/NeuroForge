@@ -4,3 +4,4 @@ torchvision
 pandas
 numpy
 scikit-learn
+PyYAML
