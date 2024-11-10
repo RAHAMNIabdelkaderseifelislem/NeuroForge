@@ -1,0 +1,35 @@
+# Default configuration for NeuroForge
+
+environment:
+  debug: true
+  cuda_enabled: true
+  cuda_device: "cuda:0"
+  log_level: "INFO"
+
+paths:
+  data: "data/"
+  models: "models/"
+  logs: "logs/"
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  epochs: 10
+  optimizer: "adam"
+  validation_split: 0.2
+  early_stopping_patience: 5
+
+data:
+  normalize: true
+  normalization_method: "standard"
+  handle_missing: true
+  missing_strategy: "mean"
+  train_split: 0.8
+  random_seed: 42
+
+model:
+  save_format: "pytorch"
+  checkpoint_frequency: 1
+  metrics:
+    - "mae"
+    - "mse"
