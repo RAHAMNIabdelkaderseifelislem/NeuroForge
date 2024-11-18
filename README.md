@@ -27,7 +27,7 @@ NeuroForge is an intuitive tool for data preprocessing, analysis, visualization,
 
 ```bash
 # Clone the repository
-git clone https://github.com/RAHAMNIabdelkaderseifelislem//neuroforge.git
+git clone https://github.com/RAHAMNIabdelkaderseifelislem/neuroforge.git
 cd neuroforge
 
 # Create a virtual environment
