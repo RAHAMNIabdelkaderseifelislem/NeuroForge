@@ -1,22 +1,6 @@
-# Core ML/DL
 torch>=2.0.0
 torchvision>=0.15.0
-
-# GUI and Visualization
-streamlit>=1.25.0
-plotly>=5.15.0
-
-# Data manipulation
-numpy>=1.24.0
-pandas>=2.0.0
-
-# Progress bars and logging
-tqdm>=4.65.0
-
-# Export functionality
-onnx>=1.14.0
-
-# Development tools
-pytest>=7.4.0
-black>=23.3.0
-flake8>=6.0.0
+pandas>=1.5.0
+numpy>=1.23.0
+streamlit>=1.22.0
+plotly>=5.13.0
