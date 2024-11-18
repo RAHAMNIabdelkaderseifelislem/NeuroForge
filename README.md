@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 1. Start the application:
 ```bash
-streamlit run src/ui/app.py
+streamlit run app.py
 ```
 
 2. Access the web interface at `http://localhost:8501`
