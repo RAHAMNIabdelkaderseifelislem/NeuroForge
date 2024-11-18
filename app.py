@@ -1,5 +1,6 @@
 import streamlit as st
 import plotly.express as px
+import pandas as pd
 from src.core.data_processor import PandasDataProcessor
 from src.core.model_builder import ModelBuilder
 from src.core.model_trainer import ModelTrainer
